@@ -1,3 +1,4 @@
+import MessengerCustomerChat from 'react-messenger-customer-chat'
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +19,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <MessengerCustomerChat
+        pageId="431836340979170"
+        appId="343451621059406"
+      />
     </div>
   );
 }
